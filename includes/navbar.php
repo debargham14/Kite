@@ -40,7 +40,7 @@
             </ul>
 
             <!-- Search Form -->
-            <form class="form-inline ml-0 ml-md-3">
+            <form class="form-inline ml-0 ml-md-3" action="index.php">
                 <div class="input-group input-group-sm">
                     <?php
                     if (isset($_GET['category'])) {

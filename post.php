@@ -88,7 +88,7 @@ require('includes/helper.php');
                             <!-- /.card-header -->
                             <div class="card-body">
                                 <!-- Post Content -->
-                                <?=fetchContent(getAssetsPath().'post/content/', $curPost['content'])?>
+                                <p><?=fetchContent(getAssetsPath().'post/content/', $curPost['content'])?></p>
                                 <!-- / .Post Content -->
 
                                 <!-- Like Button -->
